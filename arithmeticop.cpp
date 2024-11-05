@@ -7,7 +7,7 @@ int main(){
     // parenthesis > multiplication & division > addition & subtraction
     
     int students = 20;
-    int pens = (6 - 5) + 4 * 3 / 2;
+    int pens = (7 - 5) + 4 * 3 / 2;
 
     students = students + 1;
     students += 1;
