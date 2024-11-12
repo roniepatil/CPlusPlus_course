@@ -4,10 +4,21 @@
 
 
 int main() {
-    std::string Name;
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    std::getline(std::cin >> std::ws, Name);
-    std::cout << x << '\n';
+    int age;
+
+    std::cout << "What's your age?" << '\n';
+    std::cin >> age;
+
+    if(age >= 18){
+        std::cout << "You can enter this site!" << '\n';
+    }
+    else if(age < 0){
+        std::cout << "You haven't been born yet!" << '\n';
+    }
+    else{
+        std::cout << "You can cannot enter this site!" << '\n';
+    }
+
     return 0;
 
 }
