@@ -14,7 +14,7 @@ int main() {
 
     //DOUBLE (number including decimal)
     double price = 3.99;
-    std::cout << price << '\n';\
+    std::cout << price << '\n';
 
     //CHAR (single character)
     char grade = 'A';
