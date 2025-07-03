@@ -16,9 +16,12 @@ int main() {
     num % 2 ? std::cout << "ODD" << '\n': std::cout << "EVEN" << '\n';
 
     bool hungry = true;
-    hungry ? std::cout << "You are hungry!" << '\n': std::cout << "You are full" << '\n';
+    hungry ? std::cout << "You're hungry!" << '\n': std::cout << "You are full" << '\n';
     // Below works as well
-    std::cout << (hungry ? "You are hungry!" : "You are full!") << '\n';
+    std::cout << (hungry ? "You're hungry!" : "You are full!") << '\n';
+
+    bool sleepy = true;
+    std::cout << (sleepy ? "Hit the bed!" : "Study more!") << '\n';
     
     return 0;
 
