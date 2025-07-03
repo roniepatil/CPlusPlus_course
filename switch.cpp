@@ -22,6 +22,9 @@ int main() {
         case 3:
             std::cout << "It is March" << '\n';
             break;
+        case 4:
+            std::cout << "It is April" << '\n';
+            break;
 
         // So on so forth....
         default:
