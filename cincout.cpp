@@ -12,7 +12,7 @@ int main() {
     // std::cin >> name;
 
     /*
-    we can use std::getline(std::cin, name) if input has any white space in between
+    we can use std::getline(std::cin, name) if input has any white space in between,
     
     std::string name;
     std::cout << "What is your name ?" << '\n';
