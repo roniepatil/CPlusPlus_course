@@ -23,7 +23,7 @@ int main() {
     }
 
     if (temp < 0 || temp >= 30){
-        std::cout << "It is a bad temperature" << '\n';
+        std::cout << "It is a bad temperature!" << '\n';
     }
     else{
         std::cout << "It is a good temperature" << '\n';
