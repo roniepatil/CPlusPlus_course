@@ -8,9 +8,9 @@ int main() {
 
     srand(time(0));
 
-    int a = (rand() % 3) + 1;
+    int radNum = (rand() % 3) + 1;
 
-    switch (a){
+    switch (radNum){
         case 1: std::cout << "You win sticker!" << '\n';
             break;
         case 2: std::cout << "You win cash prize!" << '\n';
