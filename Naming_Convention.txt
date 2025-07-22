@@ -1,0 +1,57 @@
+Here's a quick guide to common naming conventions in C++. While no single standard is universally enforced, these are the styles you'll see most often in popular libraries, open-source projects, and style guides like Google's or Stroustrup's.
+
+The most important rule is consistency within a project.
+-----------------------
+Classes / Structs
+-----------------------
+Use PascalCase (also known as UpperCamelCase). The name should clearly represent the object or data structure.
+
+class PlayerController;
+class HttpResponse;
+struct RenderInfo;
+
+-----------------------
+Functions
+-----------------------
+There are two very common styles. Pick one and stick with it.
+
+1) camelCase (or lowerCamelCase): This is popular in many libraries and applications. The first word is lowercase, and subsequent words are capitalized.
+
+void movePlayer(int x, int y);
+string getHttpResponse();
+
+2) snake_case: This style is prevalent in the C++ Standard Library and Boost. All words are lowercase and separated by underscores.
+
+void move_player(int x, int y);
+string get_http_response();
+
+-----------------------
+Variables
+-----------------------
+Use camelCase or snake_case, often following the same style you choose for your functions. Names should be descriptive.
+
+camelCase: int playerScore; / string userName;
+snake_case: int player_score; / string user_name;
+
+Some style guides add prefixes for member variables (variables inside a class):
+
+m_playerName (m for member)
+_playerName (leading underscore)
+playerName_ (trailing underscore)
+
+-----------------------
+Constants & Macros
+-----------------------
+Use SCREAMING_SNAKE_CASE. All letters are uppercase, with words separated by underscores. This makes them easy to spot in the code.
+
+const int MAX_CONNECTIONS = 100;
+constexpr double PI = 3.14159;
+#define VENDOR_ID 4098
+
+-----------------------
+Files
+-----------------------
+Use snake_case. File names should be all lowercase and correspond to the primary class or functionality they contain.
+
+Header File: player_controller.h (contains the PlayerController class)
+Source File: player_controller.cpp
