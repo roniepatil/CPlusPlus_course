@@ -18,6 +18,12 @@ int main() {
 
     std::string *pName = &name;
     int *pAge = &age;
+    /*
+        NOTE: This is other way of writing pointers
+        int *pAge = nullptr;
+        pAge = &age;
+    */
+   
     // For arrays, "&" preceeding variable is not required as variable itself
     // a address, unlike regular string and int as seen above.
     std::string *pPowers = powers;
