@@ -18,12 +18,12 @@ int main() {
     //          members can be access with . "Class Member Acess Operator"
 
     student student1;
-    student1.name = "Krishna";
+    student1.name = "Arjun";
     student1.gpa = 3.1;
 
     student student2;
-    student2.name = "Arjun";
-    student2.gpa =3.8;
+    student2.name = "Krishna";
+    student2.gpa = 3.8;
 
     student student3;
     student3.name = "Vishnu";
