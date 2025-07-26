@@ -10,7 +10,7 @@ class Car{
         int year;
         std::string color;
 
-
+        // Classes have functions, unlike struct
         void accelerate(){
             std::cout << "Car is accelerating!" << '\n';
         };
