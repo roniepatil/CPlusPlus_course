@@ -36,8 +36,8 @@ int main() {
 
     Car car2;
 
-    car2.make = "Ford";
-    car2.model = "Mustang";
+    car2.make = "Lambhorghini";
+    car2.model = "Huracan";
     car2.year = 2024;
     car2.color = "Grey";
 
