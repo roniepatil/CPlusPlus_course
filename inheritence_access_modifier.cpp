@@ -65,7 +65,7 @@ public:
         protectedMember = 22; // OK
 
         // Private members from Base are always inaccessible.
-        // privateMember = 32;   // ERROR
+        // privateMember = 33;   // ERROR
     }
 };
 
